@@ -2,7 +2,7 @@ body {
   background-color: #322f2fa1;
   border: none;
   color: #444;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -31,7 +31,7 @@ a:hover {
   background-color: #5871758a;
   transform: scale(1.03);
 }
-  
+
 .header-inner {
   position: relative;
   text-align: center;
@@ -39,17 +39,18 @@ a:hover {
 
 .site-title {
   font-size: 2.25em;
-  font-family: "Roboto Slab",serif;
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: 400;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0,0,0,.25);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   padding-top: 40px;
   color: #fff;
 }
 
 .site-title img {
-  width: 13%;
+  width: 200px;
+  min-width: 10%;
 }
 
 .site-description {
@@ -59,7 +60,7 @@ a:hover {
   line-height: 110%;
   margin: 20px 0 0;
   text-align: center;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
 
 .triangle-box {
@@ -85,7 +86,8 @@ a:hover {
   transition: all linear 300;
 }
 
-.line-1, .line-2 {
+.line-1,
+.line-2 {
   top: -25%;
 }
 
