@@ -1,0 +1,144 @@
+body {
+  background-color: #322f2fa1;
+  border: none;
+  color: #444;
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  padding: 40px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.welcome {
+  color: #fff;
+  padding: 0 40px;
+}
+
+.btn {
+  background: #333;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background-color: #5871758a;
+  transform: scale(1.03);
+}
+  
+.header-inner {
+  position: relative;
+  text-align: center;
+}
+
+.site-title {
+  font-size: 2.25em;
+  font-family: "Roboto Slab",serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.25);
+  padding-top: 40px;
+  color: #fff;
+}
+
+.site-title img {
+  width: 13%;
+}
+
+.site-description {
+  color: #999;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 110%;
+  margin: 20px 0 0;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+.triangle-box {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.thick-line {
+  width: 300%;
+  position: fixed;
+  background-color: #333;
+}
+
+.thin-line {
+  height: 6px;
+  border: #666 1px solid;
+  width: 200%;
+  position: fixed;
+  transition: all linear 300;
+}
+
+.line-1, .line-2 {
+  top: -25%;
+}
+
+.line-1 {
+  transform: rotate(67deg);
+  height: 200%;
+  opacity: 0.3;
+  animation: line1animation 5s linear infinite;
+}
+
+.line-2 {
+  transform: rotate(-67deg);
+  height: 100%;
+  opacity: 0.6;
+  animation: line2animation 5s linear infinite;
+}
+
+.line-3 {
+  height: 300%;
+  opacity: 0.8;
+  animation: line3animation 5s linear infinite;
+}
+
+@keyframes line1animation {
+  0% {
+    right: -250%;
+  }
+  50% {
+    right: -50%;
+  }
+  100% {
+    right: 250%;
+  }
+}
+@keyframes line2animation {
+  0% {
+    left: -250%;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 250%;
+  }
+}
+@keyframes line3animation {
+  0% {
+    bottom: -150%;
+  }
+  50% {
+    bottom: 150%;
+  }
+  100% {
+    bottom: -150%;
+  }
+}
